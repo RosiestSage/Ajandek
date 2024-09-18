@@ -22,7 +22,7 @@
     }
     
     .navbar-brand{
-        font-family: "Sevillana", cursive;
+        font-family: cursive;
         font-size: 200%;
     }
     
@@ -50,7 +50,7 @@
 
 
     .kezzelirott{
-        font-family: "Sevillana", cursive;
+        font-family: cursive;
         font-size: 180%;
     }
     
@@ -218,7 +218,7 @@
     }
     
     .navbar-brand{
-        font-family: "Sevillana", cursive;
+        font-family: cursive;
         font-size: 200%;
     }
 
@@ -241,7 +241,7 @@
 
 
     .kezzelirott{
-        font-family: "Sevillana", cursive;
+        font-family: cursive;
         font-size: 180%;
     }
     
@@ -350,14 +350,14 @@
         top: 20%;
         left: 5%; 
         width: 90% ;
-        height: 110%;
+        height: 200%;
 
     }
 
     .flexjobb{
         z-index: -3;
         display: flex;
-        height: 20%;
+        height: 15%;
         width: 90%;
         justify-content: end;
         margin: 7%;
@@ -366,7 +366,7 @@
 
     .flexbal{
         display: flex;
-        height: 20%;
+        height: 15%;
         width: 90%;
         justify-content: start;
         margin: 7%;
@@ -382,6 +382,37 @@
         rotate: 20deg;
         z-index: -10;
     }
+
+    /* 2024 */
+
+    .hatterkepek24{
+        background-color: rgba(255,255, 255, 0.7);
+        position: absolute;
+        top: 20%;
+        left: 5%; 
+        width: 90% ;
+        height: 700%;
+    }
+
+    .flexjobb24{
+        z-index: -3;
+        display: flex;
+        height: 4%;
+        width: 90%;
+        justify-content: end;
+        margin: 7%;
+        padding-right: 5%;
+    }
+
+    .flexbal24{
+        display: flex;
+        height: 4%;
+        width: 90%;
+        justify-content: start;
+        margin: 7%;
+        z-index: -3;
+    }
+
 }
 
 
