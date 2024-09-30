@@ -1,3 +1,14 @@
+.szoveg{
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item img{
+    border-radius: 5%;
+}
+
+
+
 @media screen and (width > 1400px) {
 /* Fő oldal */
     body{
@@ -203,7 +214,7 @@
     
     .hatter{
         width: auto;
-        padding: 0 0 50% 0;
+        padding: 0 0 10% 0;
         position: relative;
     }
     
@@ -340,8 +351,8 @@
     }
 
     .carousel-item img{
-        height: 25% !important;
-        width: 50% !important;
+        width: 40% !important;
+        margin: 0 auto;
     }
 
     div.col-sm-6{
@@ -354,15 +365,11 @@
         top: 20%;
         left: 5%; 
         width: 90% ;
-        height: 1200px;
-        padding-bottom: 25%;
-
     }
 
     .flexjobb{
         z-index: -3;
         display: flex;
-        height: 10%;
         width: 90%;
         justify-content: end;
         margin: 7%;
@@ -371,7 +378,6 @@
 
     .flexbal{
         display: flex;
-        height: 10%;
         width: 90%;
         justify-content: start;
         margin: 7%;
@@ -381,13 +387,13 @@
     .kepjobb{
         rotate: -20deg;
         z-index: -10;
-        height: 180%;
+        height: 200px;
     }
 
     .kepbal{
         rotate: 20deg;
         z-index: -10;
-        height: 180%;
+        height: 200px;
     }
 
     /* 2024 */
@@ -398,13 +404,12 @@
         top: 20%;
         left: 5%; 
         width: 90% ;
-        height: 2000px;
     }
 
     .flexjobb24{
         z-index: -3;
         display: flex;
-        height: 4%;
+        height: 2%;
         width: 90%;
         justify-content: end;
         margin: 7%;
@@ -413,7 +418,7 @@
 
     .flexbal24{
         display: flex;
-        height: 4%;
+        height: 2%;
         width: 90%;
         justify-content: start;
         margin: 7%;
@@ -422,12 +427,22 @@
 
     .telefon{
         display: none;
+        height: 0%;
     }
 
     .tablet{
         display: none;
+        height: 0%;
     }
 
+    .carousel-control-next-icon{
+        /* border: 1px solid black; */
+        margin-left: -350%;
+    }
+    
+    .carousel-control-prev-icon{
+        margin-right: -350%;
+    }
 }
 
 
@@ -441,6 +456,7 @@
 
     .hatter{
         width: auto;
+        position: relative;
     }
     
     .hatterszin {
@@ -586,14 +602,12 @@
         left: 5%; 
         right: 5%;
         width: 90% ;
-        height: 200%;
 
     }
 
     .flexjobb{
         z-index: -3;
         display: flex;
-        height: 10%;
         width: 90%;
         justify-content: end;
         margin: 7%;
@@ -602,7 +616,6 @@
 
     .flexbal{
         display: flex;
-        height: 10%;
         width: 90%;
         justify-content: start;
         margin: 7%;
@@ -614,11 +627,13 @@
     .kepjobb{
         rotate: -20deg;
         z-index: -10;
+        height: 150px;
     }
 
     .kepbal{
         rotate: 20deg;
         z-index: -10;
+        height: 150px;
     }
 
 
@@ -631,13 +646,11 @@
         top: 20%;
         left: 5%; 
         width: 90% ;
-        height: 6000px;
     }
 
     .flexjobb24{
         z-index: -3;
         display: flex;
-        height: 2%;
         width: 90%;
         justify-content: end;
         margin: 7%;
@@ -646,13 +659,26 @@
 
     .flexbal24{
         display: flex;
-        height: 2%;
         width: 90%;
         justify-content: start;
         margin: 7%;
         z-index: -3;
     }
 
+    .carousel-control-next-icon{
+        /* border: 1px solid black; */
+        margin-left: -60%;
+    }
+    
+    .carousel-control-prev-icon{
+        margin-right: -60%;
+    }
 } 
 
 
+@media screen and (width > 1000px) {
+    .ipad{
+        display: none;
+        height: 0%;
+    }
+}
