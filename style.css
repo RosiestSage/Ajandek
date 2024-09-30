@@ -84,7 +84,6 @@
         text-align: center;
         font-size: 150%;
         padding: 0 10% ;
-        font-family: "Gloria Hallelujah";
     }
     
     .piros_nagy_cim{
@@ -286,7 +285,6 @@
         text-align: center;
         font-size: 150%;
         padding: 0 5%;
-        font-family: "Gloria Hallelujah";
     }
     
     .stickytopszar{
@@ -530,7 +528,6 @@
     .bevezeto{
         text-align: center;
         font-size: 150%;
-        font-family: "Gloria Hallelujah";
     }
     
     .stickytopszar{
@@ -680,5 +677,18 @@
     .ipad{
         display: none;
         height: 0%;
+    }
+
+    .carousel-item img{
+        width: 60% !important;
+        margin: 0 auto;
+    }
+
+    .carousel-control-prev-icon{
+        margin-right: -250%;
+    }
+    
+    .carousel-control-next-icon{
+        margin-right: -100%;
     }
 }
