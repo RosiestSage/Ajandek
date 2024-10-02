@@ -397,7 +397,7 @@
     /* 2024 */
 
     .hatterkepek24{
-        background-color: rgba(255,255, 255, 0.7);
+        background-color: rgba(255,255, 255, 0.4);
         position: absolute;
         top: 20%;
         left: 5%; 
@@ -440,6 +440,11 @@
     
     .carousel-control-prev-icon{
         margin-right: -350%;
+    }
+
+    .nemjo{
+        height: 0%;
+        display: none;
     }
 }
 
@@ -674,10 +679,12 @@
     .carousel-control-prev-icon{
         margin-right: -60%;
     }
+
+
 } 
 
 
-@media screen and (width > 1000px) {
+@media  (width > 1000px) and (width < 1050px) {
     .ipad{
         display: none;
         height: 0%;
@@ -694,5 +701,19 @@
     
     .carousel-control-next-icon{
         margin-right: -100%;
+    }
+}
+
+@media (width < 900px) and (width > 700px){
+    .nemjo{
+        display: none;
+        height: 0%;
+    }
+}
+
+@media (width > 1200px){
+    .ne{
+        display: none;
+        height: 0%;
     }
 }
