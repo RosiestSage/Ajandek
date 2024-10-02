@@ -273,6 +273,7 @@
         color: rgb(206, 91, 91);
         font-size: 250%;
         font-family: "Matemasie", sans-serif;
+        position: relative;
     }
 
     .piros_nagy_cim a{
@@ -526,6 +527,7 @@
         font-size: 250%;
         font-family: "Matemasie", sans-serif;
         margin-bottom: 10%;
+        position: relative;
     }
     
     .piros_nagy_cim a{

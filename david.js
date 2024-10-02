@@ -7,6 +7,6 @@ x = Math.random() *50-25;
 document.getElementById('rotate3').style.rotate = x + 'deg';
 */
 
-function getid() {
-    list = []
-}
+// function getid() {
+//     list = []
+// }
