@@ -483,6 +483,10 @@
         color: white;
         font-family: "Gloria Hallelujah";
     }
+
+    .navigációsbár{
+        flex-direction: column;
+    }
     
     .option{
         width: fit-content;
