@@ -528,6 +528,7 @@
         font-family: "Matemasie", sans-serif;
         margin-bottom: 10%;
         position: relative;
+        z-index: 5;
     }
     
     .piros_nagy_cim a{
