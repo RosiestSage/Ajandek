@@ -650,7 +650,6 @@
     /* 2024 */
 
     .hatterkepek24{
-        background-color: rgba(255,255, 255, 0.7);
         position: absolute;
         top: 20%;
         left: 5%; 
@@ -664,6 +663,14 @@
         justify-content: end;
         margin: 7%;
         padding-right: 5%;
+    }
+
+    .flexjobb24 img{
+        opacity: 0.4;
+    }
+
+    .flexbal24 img{
+        opacity: 0.4;
     }
 
     .flexbal24{
@@ -683,6 +690,15 @@
         margin-right: -60%;
     }
 
+    .ne{
+        height: 0%;
+        display: none;
+    }
+
+    .nemjo{
+        display: none;
+        height: 0%;
+    }
 
 } 
 
