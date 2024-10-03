@@ -666,11 +666,11 @@
     }
 
     .flexjobb24 img{
-        opacity: 0.4;
+        opacity: 0.3;
     }
 
     .flexbal24 img{
-        opacity: 0.4;
+        opacity: 0.3;
     }
 
     .flexbal24{
@@ -696,6 +696,11 @@
     }
 
     .nemjo{
+        display: none;
+        height: 0%;
+    }
+
+    .nemtelefon{
         display: none;
         height: 0%;
     }
